@@ -99,7 +99,7 @@ body{
     gap: 50px;
   }
   pre button {
-    position: absolute;
+    position: relative;
     top: 5px;
     right: 5px;
   
