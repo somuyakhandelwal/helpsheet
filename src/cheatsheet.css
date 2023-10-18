@@ -81,10 +81,10 @@ body{
     transition: 0.3s;
     width: 300px;
     height: 125px;
-    background-color: white;
   }
   
   .card:hover {
+    transform: translateX(5px) translateY(-5px);
     box-shadow: -5px 5px black;
   }
   
@@ -114,4 +114,10 @@ body{
   pre button:hover {
     cursor: pointer;
     background-color: #bcbabb;
+  }
+
+  @media(max-width:500px){
+    .main{
+      padding-top: 0px;
+    }
   }
